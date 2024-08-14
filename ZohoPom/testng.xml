@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="LeadsTestSuite">
+    <test name="LeadsTest">
+        <classes>
+            <class name="tests.LeadsTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-14T12:49:11 IST" name="LeadsTestSuite" finished-at="2024-08-14T12:50:11 IST" duration-ms="60241">
+    <groups>
+    </groups>
+    <test started-at="2024-08-14T12:49:11 IST" name="LeadsTest" finished-at="2024-08-14T12:50:11 IST" duration-ms="60241">
+      <class name="tests.LeadsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LeadsTest@17046283]" started-at="2024-08-14T12:49:11 IST" name="setUp" finished-at="2024-08-14T12:49:17 IST" duration-ms="5633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginToSite()[pri:1, instance:tests.LeadsTest@17046283]" started-at="2024-08-14T12:49:17 IST" name="LoginToSite" finished-at="2024-08-14T12:49:18 IST" duration-ms="1536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToSite -->
+        <test-method signature="createNewLeads()[pri:2, instance:tests.LeadsTest@17046283]" started-at="2024-08-14T12:49:18 IST" name="createNewLeads" finished-at="2024-08-14T12:49:39 IST" depends-on-methods="tests.LeadsTest.LoginToSite" duration-ms="20183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewLeads -->
+        <test-method signature="editLead()[pri:3, instance:tests.LeadsTest@17046283]" started-at="2024-08-14T12:49:39 IST" name="editLead" finished-at="2024-08-14T12:49:45 IST" depends-on-methods="tests.LeadsTest.createNewLeads, tests.LeadsTest.LoginToSite" duration-ms="5978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editLead -->
+        <test-method signature="filterLeads()[pri:4, instance:tests.LeadsTest@17046283]" started-at="2024-08-14T12:49:45 IST" name="filterLeads" finished-at="2024-08-14T12:49:46 IST" depends-on-methods="tests.LeadsTest.LoginToSite" duration-ms="1089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterLeads -->
+        <test-method signature="deleteLead()[pri:5, instance:tests.LeadsTest@17046283]" started-at="2024-08-14T12:49:46 IST" name="deleteLead" finished-at="2024-08-14T12:50:04 IST" depends-on-methods="tests.LeadsTest.LoginToSite" duration-ms="17956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteLead -->
+        <test-method signature="signOut()[pri:6, instance:tests.LeadsTest@17046283]" started-at="2024-08-14T12:50:04 IST" name="signOut" finished-at="2024-08-14T12:50:11 IST" depends-on-methods="tests.LeadsTest.LoginToSite" duration-ms="7573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LeadsTest@17046283]" started-at="2024-08-14T12:50:11 IST" name="tearDown" finished-at="2024-08-14T12:50:11 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LeadsTest -->
+    </test> <!-- LeadsTest -->
+  </suite> <!-- LeadsTestSuite -->
+</testng-results>
